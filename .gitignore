@@ -1,0 +1,21 @@
+# general
+build/
+dist/
+*.egg-info/
+*.egg
+*.py[cod]
+__pycache__/
+*.so
+*~
+
+# environments
+.env
+.venv
+env
+venv
+.nox
+.ipynb_checkpoints
+
+# testing
+.coverage
+
