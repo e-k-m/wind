@@ -14,7 +14,9 @@ This here contains some examples of trying to predict wind speeds in the near fu
 
 In summary, the current conclusions are:
 
-- The current approaches have a mean absolute error of approximately the same as a random walk.
+- The seasonal ARIMA is able to predict the trend multiple steps ahead.
+
+- The current approaches have a mean absolute error of approximately the same as a random walk, while predicting one step ahead.
 
 - The reason for the poor prediction accuracy seems to be the high "randomness" of wind speed over time, which is inadequately modeled in the two tested approaches.
 
